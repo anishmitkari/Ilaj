@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <!-- <color name="colorPrimary">#0100FF</color>
+    <color name="colorPrimaryDark">#0100FF</color>
+    <color name="colorAccent">#ffbc01</color>-->
+
+    <color name="colorPrimary">#00c8d7</color>
+    <color name="colorPrimaryDark">#00c8d7</color>
+    <color name="colorAccent">#00c8d7</color>
+
+
+
+    <color name="color_bg">#eff3f6</color>
+    <color name="transparent">#A6000000</color>
+    <color name="red">#ed003d</color>
+    <color name="orange">#ffbc01</color>
+    <color name="background_white_color">#f1f0f5</color>
+    <color name="light_white">#EDEDED</color>
+    <color name="white">#FFFFFF</color>
+    <color name="light_gray2">#949393</color>
+    <color name="light_gray">#949393</color>
+    <color name="gray">#D5D3D3</color>
+     <color name="lightwhite">#EDEDED</color>
+    <color name="blue_dark">#0100FF</color>
+    <color name="light_black">#333333</color>
+    <color name="black">#232a46</color>
+   <color name="darkgray">#5A5959</color>
+    <color name="light_sky">#00efd1</color>
+    <color name="light_green">#07c83b</color>
+    <color name="light_white_bg">#fafafa</color>
+    <color name="orange_red">#f42250</color>
+    <color name="green">#008000</color>
+    <color name="txt_color">#BF00C9A9</color>
+    <color name="card_user_bg_color">#56a4c3</color>
+    <color name="card_lab_at_home_bg_color">#f48a7a</color>
+    <color name="card_medicine_bg_color">#a7cc72</color>
+    <color name="card_doc_bg_color">#fbbb7e</color>
+    <color name="transparent_color">#75000000</color>
+    <color name="light_blue">#BF62F8E1</color>
+    <color name="dark_blue">#FF3C3BF5</color>
+</resources>

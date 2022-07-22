@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="textview14gray">
+        <item name="android:textColor">@color/light_gray2</item>
+        <item name="android:textSize">@dimen/_14sdp</item>
+        <item name="android:fontFamily">@font/aileron_regular</item>
+    </style>
+
+    <style name="textview12gray">
+        <item name="android:textColor">@color/light_gray2</item>
+        <item name="android:textSize">@dimen/_12sdp</item>
+        <item name="android:fontFamily">@font/aileron_regular</item>
+    </style>
+
+    <style name="textview12black">
+        <item name="android:textColor">@color/light_gray2</item>
+        <item name="android:textSize">@dimen/_12sdp</item>
+        <item name="android:fontFamily">@font/aileron_regular</item>
+    </style>
+    <style name="textview14white">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/_14sdp</item>
+        <item name="android:fontFamily">@font/aileron_regular</item>
+    </style>
+    <style name="textview16black_bold">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/_16sdp</item>
+        <item name="android:fontFamily">@font/aileron_semibold</item>
+    </style>
+
+    <style name="textview14black_bold">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/_14sdp</item>
+        <item name="android:fontFamily">@font/aileron_semibold</item>
+    </style>
+
+    <style name="textview14lightblack_bold">
+        <item name="android:textColor">@color/light_black</item>
+        <item name="android:textSize">@dimen/_14sdp</item>
+        <item name="android:fontFamily">@font/aileron_semibold</item>
+    </style>
+
+    <style name="textview12white">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/_12sdp</item>
+        <item name="android:fontFamily">@font/aileron_regular</item>
+    </style>
+
+    <style name="textview16white">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/_16sdp</item>
+        <item name="android:fontFamily">@font/aileron_regular</item>
+    </style>
+
+    <style name="textview12orange">
+        <item name="android:textColor">@color/orange</item>
+        <item name="android:textSize">@dimen/_12sdp</item>
+        <item name="android:fontFamily">@font/aileron_regular</item>
+    </style>
+
+    <style name="textview16blue">
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textSize">@dimen/_16sdp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">@font/aileron_regular</item>
+    </style>
+
+    <style name="textview18red_bold">
+        <item name="android:textColor">@color/red</item>
+        <item name="android:textSize">@dimen/_18sdp</item>
+        <item name="android:fontFamily">@font/aileron_semibold</item>
+    </style>
+
+    <style name="textview14blue">
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textSize">@dimen/_14sdp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">@font/aileron_regular</item>
+    </style>
+
+    <style name="textview18black_bold">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/_18sdp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">@font/aileron_semibold</item>
+    </style>
+
+    <style name="textview12green_bold">
+        <item name="android:textColor">@color/light_green</item>
+        <item name="android:textSize">@dimen/_12sdp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">@font/aileron_semibold</item>
+    </style>
+
+
+
+
+    <style name="textview12green_text_bold">
+        <item name="android:textColor">@color/txt_color</item>
+        <item name="android:textSize">@dimen/_12sdp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">@font/aileron_semibold</item>
+    </style>
+
+
+    <style name="text12_bold_small">
+        <item name="android:textSize">@dimen/_12sdp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>

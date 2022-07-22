@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.userdoctor">
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <permission
+        android:name="in.wptrafficanalyzer.locationcustominfocontents.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <uses-permission android:name="in.wptrafficanalyzer.locationcustominfocontents.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+
+
+    <uses-feature android:name="android.hardware.location.gps" />
+
+
+
+
+
+
+    <uses-feature
+        android:name="android.hardware.sensor.compass"
+        android:required="true" />
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/logo2"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo2"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:ignore="GoogleAppIndexingWarning,UnusedAttribute">
+        <activity android:name="com.userdoctor.ui.common.activity.Login_Section.ForgotPasswordActivity"></activity>
+        <activity android:name="com.userdoctor.ui.common.activity.Home_Activity.Activity.TermAndConditionActivity" />
+        <activity android:name="com.userdoctor.ui.common.activity.Home_Activity.Activity.PrivacyPolicyActivity" />
+        <activity android:name="com.userdoctor.ui.common.activity.Home_Activity.Activity.AboutusActivity" />
+        <activity android:name="com.userdoctor.ui.common.activity.Doctors.Clinik_List.Activity.SearchClinikList" />
+        <activity android:name="com.userdoctor.ui.common.activity.Home_Activity.Activity.ActivitySupport" />
+        <activity android:name="com.userdoctor.ui.common.activity.Doctors.Home_Doctor_list.Activity.SearchDoctorList" />
+        <activity android:name="com.userdoctor.ui.common.activity.Appointments.Activity.DRUpcomiing_Detail_Page" />
+        <activity android:name="com.userdoctor.ui.common.activity.TestBookings.Upcomiing_Detail_Page" />
+        <activity android:name="com.userdoctor.ui.common.activity.Lab_Nursing.Home_Nursing.Activity.Succesfully_Done_Nursing_Request" />
+        <activity android:name="com.userdoctor.ui.common.activity.Lab_Nursing.Home_Vaccination.Activity.UI.Activity.Vaccination_Detail" />
+        <activity android:name="com.userdoctor.ui.common.activity.Lab_Nursing.Sample_Collection.Activity.Confirm_Sample_page" />
+        <activity android:name="com.userdoctor.ui.common.activity.Lab_Nursing.Sample_Collection.Activity.Item_ClickOnRecycleviwAdapterTest" />
+        <activity android:name="com.userdoctor.ui.common.activity.First_Section_EmerGency_Ambulance.ActivityEmrMap" />
+        <activity android:name="com.userdoctor.ui.common.activity.Lab_Nursing.Home_Vaccination.Activity.UI.Activity.Vaccination_Time_Page" />
+        <activity android:name="com.userdoctor.ui.common.activity.Lab_Nursing.Home_Vaccination.Activity.UI.Activity.Vaccination_Next_Page" />
+        <activity android:name="com.userdoctor.ui.common.activity.OTHER_Activity.StartDateMonth" />
+        <activity android:name="com.userdoctor.ui.common.activity.Lab_Nursing.Home_Vaccination.Activity.UI.Activity.Activity_Vaccination_Main" />
+        <activity android:name="com.userdoctor.ui.common.activity.Lab_Nursing.Home_Nursing.Activity.Visit_Time_Activity" />
+        <activity android:name="com.userdoctor.ui.common.activity.Lab_Nursing.Home_Nursing.Activity.Nursing_Detail_Time" />
+        <activity android:name="com.userdoctor.ui.common.activity.Lab_Nursing.Home_Nursing.Activity.Activity_Home_Nursing" />
+        <activity android:name="com.userdoctor.ui.common.activity.OTHER_Activity.Activity_Sample_Payment_Page" />
+        <activity android:name="com.userdoctor.ui.common.activity.Lab_Nursing.Sample_Collection.Activity.Activity_Sample_Book_Time" />
+        <activity android:name="com.userdoctor.ui.common.activity.Lab_Nursing.Sample_Collection.Activity.Activity_Sample_Collection_Main" />
+        <activity android:name="com.userdoctor.ui.common.activity.OTHER_Activity.ActivitySampleConfirmDone" />
+        <activity android:name="com.userdoctor.ui.common.activity.OTHER_Activity.ActivitySampleConfirm" />
+        <activity android:name="com.userdoctor.ui.common.activity.Lab_Nursing.Sample_Collection.Activity.Activity_Sample_collection" />
+        <activity android:name="com.userdoctor.ui.common.activity.Lab_Nursing.Home_Vaccination.Activity.UI.Activity.Activity_Vacci_confirm" />
+        <activity android:name="com.userdoctor.ui.common.activity.Lab_Nursing.Home_Vaccination.Activity.UI.Activity.Activity_Vaccination" />
+        <activity android:name="com.userdoctor.ui.common.activity.Doctors.Clinik_List.Activity.Activity_Clinic_Details" />
+        <activity android:name="com.userdoctor.ui.common.activity.Doctors.Home_Doctor_list.Activity.Activity_Dr_book_confirm" />
+        <activity android:name="com.userdoctor.ui.common.activity.Doctors.Home_Doctor_list.Activity.Activity_Dr_Time_booking" />
+        <activity android:name="com.userdoctor.ui.common.activity.Doctors.Home_Doctor_list.Activity.ActivityBookNow_drTopSpec" />
+        <activity android:name="com.userdoctor.ui.common.activity.OTHER_Activity.ActivityProfile_drTopSpec" />
+        <activity android:name="com.userdoctor.ui.common.activity.Specialist_Doctors.ActivityDoctorTopSpecList" />
+        <activity android:name="com.userdoctor.ui.common.activity.OTHER_Activity.Activity_More_Dr" />
+        <activity android:name="com.userdoctor.ui.common.activity.OTHER_Activity.ActivityDeliveryDrug" />
+        <activity android:name="com.userdoctor.ui.common.activity.OTHER_Activity.ActivityBookAppointMent" />
+        <activity android:name="com.userdoctor.ui.common.activity.Doctors.Home_Doctor_list.Activity.ActivityRattingReview" />
+        <activity android:name="com.userdoctor.ui.common.activity.OTHER_Activity.ActivityPersonalInfo" />
+        <activity android:name="com.userdoctor.ui.common.activity.Doctors.Home_Doctor_list.Activity.ActivityDrDetail" />
+
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+       <!-- <activity
+            android:name="com.schibstedspain.leku.LocationPickerActivity"
+            android:label="@string/leku_title_activity_location_picker"
+            android:parentActivityName=".ui.common.activity.OTHER_Activity.ActivitySplash"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/leku_searchable" />
+
+        </activity>
+-->
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name="com.userdoctor.ui.common.activity.First_Section_EmerGency_Ambulance.ActivityAmbMap"
+            android:label="@string/title_activity_amb_map"
+            android:theme="@style/AppTheme2" />
+        <activity android:name="com.userdoctor.ui.common.activity.Doctors.Home_Doctor_list.Activity.ActivityDoctorList" />
+        <activity android:name="com.userdoctor.ui.common.activity.OTHER_Activity.ActivityEditProfile" />
+        <activity android:name="com.userdoctor.ui.common.activity.OTHER_Activity.ActivityProfile" />
+        <activity
+            android:name="com.userdoctor.ui.common.activity.OTHER_Activity.ActivitySignUp"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.userdoctor.ui.common.activity.Home_Activity.Activity.ActivitySetting"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.userdoctor.ui.common.activity.OTHER_Activity.ActivityPayment"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.userdoctor.ui.common.activity.OTHER_Activity.ActivityReminder"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.userdoctor.ui.common.activity.OTHER_Activity.ActivityMedicalRecord"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.userdoctor.ui.common.activity.OTHER_Activity.ActivityOrder"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.userdoctor.ui.common.activity.OTHER_Activity.ActivityTestBooking"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.userdoctor.ui.common.activity.OTHER_Activity.ActivityAppointMentList"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.userdoctor.ui.common.activity.Home_Activity.ActivityHome"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.userdoctor.ui.common.activity.Login_Section.ActivityLogin"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.userdoctor.ui.common.activity.OTHER_Activity.ActivitySplash"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.userdoctor.ui.common.activity.OTHER_Activity.ActivityWelcome"
+            android:theme="@style/AppTheme3" />
+        <activity android:name="com.userdoctor.ui.common.activity.Doctors.Clinik_List.Activity.ActivityClinicList" /> <!-- map -->
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.com.vansuita.pickimage.provider"
+            android:exported="false"
+            android:grantUriPermissions="true"
+            tools:replace="android:authorities">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/picker_provider_paths" />
+        </provider>
+
+
+
+        <uses-library android:name="com.google.android.maps" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.places.API_KEY"
+            android:value="@string/google_maps_key" /> <!-- for android 9 start -->
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+        <uses-library
+            android:name="com.google.android.things"
+            android:required="false"
+            tools:replace="android:required" />
+        <receiver
+            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+            </intent-filter>
+        </receiver>
+        <service
+            android:name=".ui.common.services.MyFirebaseMessagingService"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name=".ui.common.services.MyFirebaseInstanceIDService"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+    </application>
+
+</manifest>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#ffffff"
+    >
+    <!--
+        CardView
+            A FrameLayout with a rounded corner background and shadow.
+            CardView uses elevation property on L for shadows and falls back to a custom shadow
+            implementation on older platforms.
+    -->
+    <!--
+        android.support.v7.cardview:cardElevation
+            Elevation for CardView.
+            Must be a dimension value, which is a floating point number appended with a unit such
+            as "14.5sp". Available units are: px (pixels), dp (density-independent pixels), sp
+            (scaled pixels based on preferred font size), in (inches), mm (millimeters).
+
+            This may also be a reference to a resource (in the form "@[package:]type:name") or
+            theme attribute (in the form "?[package:][type:]name") containing a value of this type.
+
+            This is a private symbol.
+    -->
+    <!--
+        android.support.v7.cardview:cardMaxElevation
+            Maximum Elevation for CardView.
+            Must be a dimension value.
+    -->
+    <androidx.cardview.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        card_view:cardCornerRadius="5dp"
+        card_view:contentPadding="25dp"
+        card_view:cardBackgroundColor="#d5efd4"
+        card_view:cardElevation="6dp"
+        card_view:cardMaxElevation="10dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SAMPLE\nCARDVIEW"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="#2ca92a"
+            />
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        card_view:cardCornerRadius="5dp"
+        card_view:contentPadding="25dp"
+        card_view:cardBackgroundColor="#d5efd4"
+        android:layout_toRightOf="@id/card_view_left"
+        android:layout_toEndOf="@id/card_view_left"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ANOTHER\nCARDVIEW"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="#2ca92a"
+            />
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>
